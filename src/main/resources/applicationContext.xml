@@ -29,6 +29,13 @@
     <constructor-arg ref="myFortune"/>
     </bean>
 
+    <!--  Configuration for CricketCoach for part 34 of course   -->
+
+
+        <bean id="myCricketCoach"
+              class="com.luv2code.springdemo.CricketCoach">
+            <property name="fortuneService" ref="myFortune"/>
+        </bean>
 
 </beans>
 
